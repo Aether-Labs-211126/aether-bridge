@@ -107,7 +107,7 @@ Su Android, Aether Bridge utilizza un micro-server locale (`127.0.0.1:8765`) che
 
 ## 💬 Come Usarlo
 
-1. Apri una nuova chat su **Google Gemini**.
+1. Apri una nuova chat su **Google Ai Mode**.
 2. Incolla questo **Prompt di Sistema** come primo messaggio per istruire l'AI su come comunicare con il tuo terminale:
 
    > *"Da ora in poi, quando devi eseguire un comando sul mio terminale, crea uno o più blocchi di codice che iniziano esattamente con `#EXEC` sulla prima riga, seguiti dai comandi bash/shell. Io li eseguirò sul mio dispositivo e ti manderò l'output."*
