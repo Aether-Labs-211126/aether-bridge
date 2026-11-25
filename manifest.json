@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Aether Bridge",
+  "version": "1.0",
+  "description": "Collega la chat web di Gemini al terminale - by Aether Labs",
+  "permissions": ["nativeMessaging"],
+  "host_permissions": ["http://127.0.0.1:8765/*"],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{
+    "matches": ["https://gemini.google.com/*", "https://www.google.com/*"],
+    "all_frames": true,
+    "js": ["content.js"]
+  }]
+}
